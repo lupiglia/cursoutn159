@@ -1,0 +1,45 @@
+h2{
+    color:blue; /*Subtitle */
+}
+/*regla de css
+h2 tipo de selector: etiqueta
+y dentro van las propiedades de cada valor.*/
+
+h1{
+    color:red;
+    background-color: yellow; /*Color de fondo*/
+    text-align: center;
+    font-family: arial;
+}
+
+p{
+    color: magenta; /*Utilizo este color porque no veo el green.*/
+}
+
+.destacados{
+    color: orangered;
+    font-size: 22px;
+    font-style: italic;/*italica*/
+    font-weight: bold;/*negrita*/
+    
+}
+
+/*class con ., id con #*/
+
+#Rojo{
+width: 300px;
+height: 400px;
+background-color: lightcoral;
+text-align: center;
+margin-bottom: 50px;
+border: 3px solid black;
+}
+
+#Celeste{
+    width: 300px;
+height: 400px;
+background-color: lightblue;
+padding: 20px;
+box-sizing: border-box; /*Para que padding no agrande la caja, se respete la medida original.*/
+border: royalblue dashed 3px;
+}
