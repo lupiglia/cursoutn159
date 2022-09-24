@@ -1,0 +1,13 @@
+.contenedor{
+    background-color: rgb(214, 214, 214);
+    display: inline-flex;
+    flex-direction: column-reverse;
+}
+
+.item{
+    background-color: antiquewhite;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    font-size: 25px;
+}

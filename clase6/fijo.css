@@ -1,0 +1,12 @@
+.caja{
+background-color: antiquewhite;
+width: 100%;
+height: 50px;
+position: fixed; /*SIEMPRE ESTA AHÍ, es permanente, no escapas.*/
+top:0;
+}
+
+.texto{
+    background-color: yellow;
+    margin-top: 50px;
+}

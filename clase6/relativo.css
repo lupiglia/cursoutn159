@@ -1,0 +1,33 @@
+.contenedor{
+    background-color: rgb(238, 237, 237);
+    width: 60%;
+    margin: 0 auto; /*ariba y abajo, derecha e izquierda.*/
+    height: 500px;
+    /*padding-top: 20px; Margen para adentro*/
+}
+
+.verde{
+background-color: lightgreen;
+margin: 0 auto 20px; /*arriba-laterales-abajo*/
+width: 90%;
+height: 150px;
+position: absolute;
+top: 0;
+left: 0;
+}
+/*El absolute ignora todo contenedor hasta encontrar uno con posicionamiento relativo y se ubica según este, siendo este caso el body debido a que "contenedor" tiene de tipo estatico*/
+
+.celeste{
+    background-color: rgb(170, 255, 255);
+    margin: 0 auto 20px; /*arriba-laterales-abajo*/
+    width: 90%;
+    height: 150px;
+    }
+
+.amarillo{
+    background-color: yellow;
+    width: 90%;
+    margin: 0px auto 20px;
+    height: 150px;
+
+}
