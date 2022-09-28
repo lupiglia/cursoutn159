@@ -9,7 +9,7 @@ background-color: #2e64a1;
 padding: 16px 0;
 }
 
-header-h1{
+header h1{
     color:white;
     font-style: italic;
     font-weight: 300;
@@ -19,24 +19,13 @@ header-h1{
     margin: 0;
 }
 
-.historia p{
-    font-size: 13px;
-
-}
-
-.persona{
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
-
-
 nav{
     background-color: #6da9ed;
     margin-bottom: 16px;
 }
 
 nav ul{
-    margin: 1;
+    margin: 0;
     list-style: none;
     padding: 0;
     display: flex;
@@ -44,6 +33,10 @@ nav ul{
 
 nav ul li{
     flex-grow: 1;
+}
+
+.columnas{
+    display: flex;
 }
 
 nav ul li a{
@@ -66,23 +59,33 @@ nav ul li a.stand{
 footer{
     background-color: #ccc;
     text-align: center;
-    padding: 49px 0;
+    padding: 40px 0;
     margin-top: 20px;
 }
 
 .holder{
     max-width: 960px;
+    margin: 0 auto;
     /*background-color: yellowgreen;*/
+}
+
+h2{
+    font-weight: 400;
+    color: rgb(0, 44, 190);
 }
 
 .bienvenidos{
     width: 75%;
-    font-weight: 400; 
+    padding-right: 16px;
 }
 
 .testimonios{
     width: 25%;
-    background-color: rgba(204, 204, 204, 0.562);
+}
+
+.testimonio{
+    background-color: rgb(231, 231, 231);
+    padding: 16px;
 }
 
 .columnas{
@@ -90,11 +93,11 @@ footer{
 }
 
 .testimonio .cita{
-    font-size: 16px;
+    font-size: 24px;
     font-weight: bold;
     font-style: italic;
     display: block;
-    
+    background-color: yellow;
 }
 
 .testimonio .autor{
@@ -103,4 +106,78 @@ footer{
     display: block;
     text-align: center;
     margin-top: 16px;
+}
+
+.historia p{
+    font-size: 13px;
+}
+
+.personas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.persona{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 18%;
+    padding: 8px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.persona img{
+    border-radius: 50%;
+    max-width: 65%;
+    box-shadow: 0 0 5px black;
+    margin-top: 13px 0 16px;
+}
+
+.persona h5,
+.persona h6{
+    color: #2e64a1;
+    font-weight: normal;
+    margin: 0;
+}
+
+.persona h5{
+    font-size: 14px;
+}
+
+.persona h6{
+    font-style: italic;
+}
+
+.persona p{
+    font-size: 13px;
+line-height: 16px;
+}
+
+.servicio{
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    margin: 16px 0;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    gap: 20px; /*Para separa img de p, sino queda pegado y muy desprolijo.*/
+}
+
+.servicio .info h4{
+    color: #2e64a1;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    border-bottom: 1px solid #2e64a1;
+    padding-bottom: 8px;
+}
+
+.servicio img{
+    max-width: 225px;
+    display: block;
+    border-radius: 20px;
+}
+
+.servicio:nth-child(even){ /*Pseudoclase, esta en particular afecta a los elementos de la funcion pares (Empieza en cero(Even))*/
+    flex-direction: row-reverse;
 }
