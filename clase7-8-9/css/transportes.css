@@ -97,13 +97,13 @@ h2{
     font-weight: bold;
     font-style: italic;
     display: block;
-    background-color: yellow;
+    /*background-color: yellow;*/
     padding-bottom: 12px;
 }
 
 .testimonio .autor{
     font-size: 11px;
-    background-color: lightblue;
+    background-color: rgb(214, 214, 214);
     display: block;
     text-align: center;
     margin-top: 16px;
